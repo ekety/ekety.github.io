@@ -97,11 +97,14 @@ body {
 	height: 67px;
 	transform: translate3d(-10px, -10px, 0);
 	transition: transform .3s linear;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .logo__text {
 	text-align: center;
-	transform: translateY(30%);
+/*	transform: translateY(30%);*/
 	font-family: Open Sans, sans-serif;
 	font-weight: 700;
 	color: #f5f5f5;
@@ -285,6 +288,7 @@ nav {
 	text-align: center;
 	height: 700px;
 	position: relative;
+	display: flex;
 }
 
 .offer {
@@ -297,35 +301,26 @@ nav {
 	color: #5993b2;
 	position: absolute;
 	font-family: Open Sans, sans-serif;
+	
 }
-
-.offer__title {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 37px;
-	color: #fff;
-	font-family: Gotham, sans-serif;
-	font-weight: 400;
-	position: relative;
-	width: 561px;
-	margin-top: 110px;
-	margin-left: 90px;
-	text-transform: uppercase;
-	width: 100%;
-}
-
 
 
 .agency__icon {
+	height: 100%;
 	display: flex;
 	justify-content: space-between;
-	padding-top: 380px;
-	margin-bottom: 40px;
+	align-items: flex-end;
+	padding-bottom: 40px;
 }
 
 .blog__item {
 	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+.blog__display__all {
+	
 }
 
 .icon {
@@ -518,6 +513,10 @@ nav {
 }
 
 .blog__itemm {}
+
+.blog__item {
+	
+}
 
 .blog__h1 {
 	color: #11749e;
@@ -734,19 +733,6 @@ nav {
 }
 
 
-.forma__header__blog {
-	font-size: 37px;
-	color: #fff;
-	font-family: Gotham, sans-serif;
-	font-weight: 400;
-
-	position: relative;
-
-	text-transform: uppercase;
-}
-
-
-
 .forma {
 	background: url(../img/form/bg.png) no-repeat;
 	background-size: cover;
@@ -765,12 +751,15 @@ nav {
 	width: 31%;
 	height: 43px;
 	padding: 14px;
-	margin-right: 28px;
 	border: 2px solid #fff;
 	background: none;
 	color: #fff;
 	font-size: 15px;
+}
 
+.input__info {
+	display: flex;
+	justify-content: space-around;
 }
 
 .text:nth-child(3) {
@@ -785,11 +774,12 @@ nav {
 
 .comments__textarea {
 	margin-top: 30px;
-
+	display: flex;
+	justify-content: space-around;
 }
 
 textarea {
-	width: 1182px;
+	width: 97.6%;
 	background: none;
 	border: 2px solid #fff;
 	padding: 14px;
