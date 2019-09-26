@@ -24,6 +24,7 @@ body {
 	height: 100vh;
 	background: url(../img/bg.jpg) no-repeat ;
 	background-size: cover;
+	position: relative;
 }
 
 .burger {
@@ -99,13 +100,13 @@ body {
 	height: 90%;
 	justify-content: center;
 	align-items: center;
-	position: relative;
+	
 }
 
 
 .header-all-info {
 	position: absolute;
-	left: 17%;
+	left: 24%;
 }
 
 .header-info {
