@@ -10,3 +10,23 @@ function ScrollBar() {
 	
 	progress.style.width = per + '%';
 }
+
+
+
+
+let menu = document.querySelector('.burger');
+menu.addEventListener('click', OpenMenu);
+
+
+function OpenMenu() {
+	alert('МЕНЮ НА СТАДИИ РАЗРАБОТКИ');
+}
+
+
+
+
+
+
+
+
+

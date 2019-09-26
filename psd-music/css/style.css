@@ -26,6 +26,28 @@ body {
 	background-size: cover;
 }
 
+.burger {
+	display: none;
+	width: 40px;
+	height: 36px;
+	position: fixed;
+	left: 5%;
+	z-index: 100;
+}
+
+.stick {
+	width: 100%;
+	height: 7px;
+	background: linear-gradient(90deg, transparent, 30%, #2196f3, transparent); 
+	margin-top: 6px;
+	border-radius: 96%
+}
+
+.stick:nth-child(1)  {
+	margin-top: 0;
+}
+
+
 .container {
 	width: 80%;
 	height: 100%;
@@ -242,7 +264,15 @@ body {
 }
 
 
-
+@media screen and (max-width: 800px) {
+	.header-header { 
+		display: none;
+	}
+	
+	.burger {
+		display: block;
+	}
+}
 
 
 
