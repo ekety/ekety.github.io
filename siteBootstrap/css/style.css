@@ -1,0 +1,93 @@
+body {
+	
+}
+  
+
+	/* HEADER */
+
+.header {
+	background: #fcdb00;
+	padding-top: 58px;
+	padding-bottom: 105px;
+}
+
+.tinyone {
+	font-size: 28px;
+	font-family: Consolas;
+	font-weight: 700;
+	align-items: 
+}
+
+.menu {
+	color: #000;
+	font-family: Consolas;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.menu a {
+	color: #000;
+}
+
+
+.Feature, .Support {
+/*	padding-right: 40px;*/
+}
+
+.offer {
+	font-family: Consolas;
+}
+
+.offer-title {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.offer-intro {
+	font-size: 20px;
+	margin-top: 25px;
+	width: 400px;
+}
+
+.offer-text {
+	font-size: 16px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+	width: 450px;
+}
+
+.icons-item {
+	font-size: 38px;
+	color: #000;
+}
+
+.ipad {
+	display: block;
+	margin: 60px auto 0;
+}
+
+
+
+	/* FEATURE */
+
+
+
+
+
+.title {
+	font-family: Consolas;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 70px;
+}
+
+.title-main {
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.p-title {
+	font-size: 20px;
+	margin: 0 auto;
+}
+
