@@ -318,6 +318,22 @@ body {
 	
 }
 
+
+@media screen and (max-width: 550px) {
+	
+	.info5, .info1, .info4 {
+		display: block;
+		width: 60%;
+		margin: 0 auto;
+	}
+	
+	.img-info {
+		padding-bottom: 20px;
+	}
+}
+
+
+
 @media screen and (max-width: 525px) {
 	.menu {
 		display: flex;
@@ -344,5 +360,15 @@ body {
 	
 	.header-btn-1 {
 		margin-top: 15px;
+	}
+	
+	.info5, .info1, .info4 {
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	.img-info {
+		padding-bottom: 20px;
 	}
 }
