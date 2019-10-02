@@ -262,6 +262,11 @@ li {
 .sub {
 	font-size: 13px;
 	color: #0f5f5c;
+	margin: 0 auto;
+}
+
+.new {
+	text-align: center;
 }
 
 .enter-email {
@@ -290,6 +295,7 @@ li {
 
 .enter-email {
 	position: relative;
+	text-align: center;
 }
 
 .fa-paper-plane-o {
