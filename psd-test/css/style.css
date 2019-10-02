@@ -2,6 +2,15 @@ body {
 	font-family: 'PT sans', sans-serif;
 }
 
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
 .kek {
 	width: 100%;
 }
@@ -15,6 +24,7 @@ body {
 	font-weight: 900;
 	font-family: 'PT sans', sans-serif;
 	color: #0f5f5c;
+
 }
 
 .menu a:hover {
@@ -239,8 +249,8 @@ body {
 }
 
 .nav {
-	display: flex;
-	flex-direction: column;
+	display: block;
+	
 }
 
 .nav a {
@@ -268,6 +278,10 @@ body {
 
 .footer-email-email::placeholder {
 	font-size: 13px;
+}
+
+.footer-menu {
+	
 }
 
 .row2 {
@@ -316,7 +330,7 @@ body {
 	width: 32px;
 	height: 32px;
 	border-radius: 50%;
-	border: 1px solid #000;
+/*	border: 1px solid #000;*/
 	justify-content: center;
 	display: flex;
 	justify-content: center;
@@ -347,6 +361,12 @@ body {
 .social-item5 {
 	background: #00dced;
 }
+
+.social-item a {
+	text-decoration: none;
+	color: #fff;
+}
+
 
 
 
