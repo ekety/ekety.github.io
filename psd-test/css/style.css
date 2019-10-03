@@ -17,13 +17,15 @@ li {
 
 .header {
 	padding-top: 20px;
+	position: relative;
 }
 
-.logo {
+.logo a {
 	font-size: 28px;
 	font-weight: 900;
 	font-family: 'PT sans', sans-serif;
 	color: #0f5f5c;
+	text-decoration: none;
 
 }
 
@@ -126,6 +128,13 @@ li {
 	border: none;
 }
 
+.form-btn:hover {
+	background: #fff;
+	color: #6fb048;
+	box-shadow: 2px 2px 16px #999;
+	transition: 0.4s;
+}
+
 .textarea::placeholder {
 	color: #8badab;
 	opacity: .7
@@ -205,6 +214,13 @@ li {
 	border: none;
 }
 
+.download-btn:hover {
+	background: #fff;
+	color: #6fb048;
+	box-shadow: 2px 2px 16px #999;
+	transition: 0.4s;
+}
+
 
 
 		/* FOOTER */
@@ -214,12 +230,13 @@ li {
 	padding-bottom: 60px;
 }
 
-.logo2 {
+.logo2 a {
 	line-height: 1;
 	font-size: 28px;
 	font-weight: 900;
 	font-family: 'PT sans', sans-serif;
 	color: #0f5f5c;
+	text-decoration: none;
 }
 
 .company {
@@ -300,7 +317,7 @@ li {
 
 .fa-paper-plane-o {
 	position: absolute;
-	left: 61%;
+	left: 75%;
 	top: 50%;
 	
 	color: #6fb048;
@@ -433,6 +450,14 @@ li {
 		left: 94%;
 	}
 }
+
+
+@media screen and (max-width: 720px) {
+	.menu a{
+		display: none;
+	}
+} 
+
 
 
 @media screen and (max-width: 540px) {
