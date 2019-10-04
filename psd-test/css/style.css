@@ -452,11 +452,7 @@ li {
 }
 
 
-@media screen and (max-width: 720px) {
-	.menu a{
-		display: none;
-	}
-} 
+
 
 
 
