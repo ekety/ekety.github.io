@@ -248,16 +248,21 @@ li {
 
 
 .images {
+	text-align: center;
 	padding-bottom: 130px;
 }
 
+
 .popup-gallery {
-	width: 100%;
+	width: 100%;	
 }
 
+
 .images__gallery {
-	width: 100%;
+	max-width: 100%; 
 }
+
+
 
 
 

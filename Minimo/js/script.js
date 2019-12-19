@@ -12,7 +12,7 @@ function init() {
 
 function Menu(e) {
 	let el = document.getElementById('hamburger');
-	el.onclick = showMenu;
+	el.addEventListener('click', showMenu);
 }
 
 function showMenu() {
