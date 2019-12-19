@@ -17,14 +17,16 @@ function Menu(e) {
 
 function showMenu() {
 	let el = document.querySelector('.nav__active');
+	el.classList.toggle('show');
+	el.style.transition = '0.6s'
 	
-	if (el.style.left == '-2200px') {
-			el.style.left = '0px';
-			el.style.transition = '0.5s';
-		} else {
-			el.style.left = '-2200px';
-			el.style.transition = '1s';
-		}
+//	if (el.style.left == '-2200px') {
+//			el.style.left = '0px';
+//			el.style.transition = '0.5s';
+//		} else {
+//			el.style.left = '-2200px';
+//			el.style.transition = '1s';
+//		}
 }
 
 Menu();
