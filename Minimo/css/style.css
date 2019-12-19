@@ -1,0 +1,329 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	/*font-family: 'Ubuntu', sans-serif;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+
+ul,
+li {
+	list-style: none;
+}
+
+.lifestyle__link,
+.photodiary__link {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #c7c1b6;
+}
+
+
+.scroll__top {
+	width: 18px;
+	height: 18px;
+	border-right: 4px solid #000;
+	border-top: 4px solid #000;
+	transform: rotate(-45deg);
+	position: fixed;
+	right: 3%;
+	bottom: 5%;
+	z-index: 100;
+}
+
+/* HEADER */
+
+
+.header {
+	padding-top: 70px;
+	padding-bottom: 90px;
+	position: relative;
+}
+
+.header__top {
+	padding-bottom: 50px;
+}
+
+.header__logo-link {
+	text-transform: uppercase;
+	color: #000;
+}
+
+.header__logo-link:hover {
+	color: #000;
+}
+
+.menu {
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.nav__active {
+	position: relative;
+	left: -2200px;
+}
+
+.menu__item-link {
+	color: #000;
+}
+
+.header__center {
+	text-align: center;
+	width: 100%;
+}
+
+.header__img {
+	width: 100%;
+}
+
+
+
+
+/* HAMBURGER */
+
+
+#hamburger {
+	width: 40px;
+	height: 26px;
+	display: none;
+	
+	position: absolute;
+	right: 50%;
+	transform: translateX(18px)
+}
+
+.stick {
+	display: block;
+	width: 100%;
+	height: 4px;
+	background: #000;
+	margin-bottom: 6px;
+}
+
+.stick:nth-child(3) {
+	margin-bottom: 0;
+}
+
+
+
+
+
+/* PHOTODIARY */
+
+
+
+.photodiary {}
+
+.photodiary__title {
+	padding: 32px 0;
+	font-size: 30px;
+}
+
+.photodiary__text {
+	font-size: 14px;
+	padding-bottom: 73px;
+}
+
+.photodiary__comment {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.photodiary__comment {
+	padding-bottom: 124px;
+}
+
+
+/* MUSIC */
+
+
+.music__content {
+	padding-bottom: 120px;
+}
+
+.music__img {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.music__img-2 {
+	width: 100%;
+}
+
+.music__title {
+	padding: 20px 0 20px 0;
+}
+
+.music__text {
+	width: 100%;
+	font-size: 14px;
+}
+
+
+
+/* SIGNUP */
+
+
+.signUp {
+	text-align: center;
+	background: #f0f0f0;
+	height: 290px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 90px;
+}
+
+.signUp__title {
+	font-size: 30px;
+	padding-bottom: 65px;
+}
+
+.signUp__search {
+	position: relative;
+	width: 35%;
+	margin: 0 auto;
+}
+
+.signUp__search-input {
+	width: 100%;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #626262;
+	outline: none;
+	padding: 5px;
+}
+
+.signUp__search-input::placeholder {
+	font-size: 14px;
+}
+
+.signUp__send {
+	cursor: pointer;
+	position: absolute;
+	top: 25%;
+	right: 0;
+}
+
+
+.show__more {
+	text-align: center;
+}
+
+.show__more-btn {
+	margin-top: 40px;
+	margin-bottom: 160px;
+	padding: 15px 28px;
+	background: transparent;
+	border: none;
+	border: 1px solid #626262;
+	cursor: pointer;
+}
+
+.disabled {
+	display: none;
+}
+
+
+
+
+
+/* IMAGES */
+
+
+
+.images {
+	text-align: center;
+	padding-bottom: 130px;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+
+.footer {
+	height: 100px;
+	background: #f0f0f0;
+	display: flex;
+	align-items: center;
+}
+
+.social__text {
+	padding-right: 15px;
+}
+
+.social__items {
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+
+
+/* MEDIA */
+
+@media screen and (max-width: 992px) {
+	.header__logo {
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	.center {
+		display: flex;
+		justify-content: center;
+	}
+
+	.signUp__search {
+		width: 50%;
+	}
+
+	.images__gallery {
+		padding-bottom: 30px;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.social {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.col-lg-6 .nav {
+		display: none;
+	}
+	
+	#hamburger {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.center {
+		text-align: center;
+	}
+
+
+}
