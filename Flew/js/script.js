@@ -21,24 +21,24 @@ $(function () {
 
 	});
 
-	
-		$('.owl-carousel').owlCarousel({
-			loop: true,
-			margin: 10,
-			nav: true,
-			responsive: {
-				0: {
-					items: 1
-				},
-				600: {
-					items: 1
-				},
-				1000: {
-					items: 1
-				}
+
+	$('.owl-carousel').owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 1
+			},
+			1000: {
+				items: 1
 			}
-		})
-	
+		}
+	})
+
 
 	AOS.init({
 		// Global settings:
@@ -63,4 +63,27 @@ $(function () {
 
 	});
 
+	let main = function () {
+		$(".open__menu").click(function () {
+			$(".hamburger__menu").animate({
+				right: "0px"
+			}, 500);
+
+			$("body").animate({
+				right: "275px"
+			}, 500);
+		});
+		$(".close__menu").click(function () {
+			$(".hamburger__menu").animate({
+				right: "-275px",
+			}, 500);
+
+			$("body").animate({
+				right: "0"
+			}, 500);
+		});
+
+	};
+
+	main();
 });
