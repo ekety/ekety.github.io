@@ -171,10 +171,18 @@ li {
 	transition: 0.2s;
 }
 
+.menu__list-link:active {
+	color: #000;
+}
+
 
 .menu__list-link:hover {
 	text-decoration: none;
 	color: #27e1ce;
+}
+
+.current a {
+	color: #27E1CE;
 }
 
 .menu__btn {
@@ -360,9 +368,31 @@ li {
 	transition: 0.4s;
 }
 
+.bg__text {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
 
+.bg__text-title {
+	font-size: 70px;
+}
 
+.fa-heart {
+	color: red;
+}
 
+.bg__text-text {
+	padding-top: 15px;
+	font-size: 23px;
+	color: #fff;
+}
+
+.bg__text-text span {
+	color: #27E1CE;
+}
 
 /* CLIENTS */
 
@@ -731,7 +761,6 @@ li {
 
 .footer {
 	padding-top: 110px;
-	padding-bottom: 50px;
 	background: #262626;
 	color: #fff;
 }
@@ -1002,6 +1031,10 @@ li {
 		font-size: 40px;
 	}
 	
+	.bg__text-title {
+		font-size: 40px;
+	}
+	
 	.footer__about {
 		padding-bottom: 40px;
 	}
@@ -1020,7 +1053,7 @@ li {
 	}
 	
 	.footer__copyright {
-		padding-bottom: 0px;
+		padding-bottom: 50px;
 	}
 }
 
