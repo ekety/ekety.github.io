@@ -138,16 +138,20 @@ li {
 
 .slider-text {
 	opacity: 0;
+	height: 790px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .slider__text-inner {
-	display: block;
 	text-align: center;
-	height: 700px;
+	position: relative;
 }
 
 .slider__text-title {
-	padding-top: 270px;
+/*	padding-top: 270px;*/
+	top: 70%;
 	font-size: 70px;
 	font-weight: 400;
 	color: #fff;
