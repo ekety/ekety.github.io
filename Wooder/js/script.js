@@ -22,6 +22,8 @@ $(function () {
 
     $('.header__hamburger-menu').on('click', function() {
         $('.menu').toggleClass('active');
-    })
+    });
+    
+    new WOW().init();
 
 });
