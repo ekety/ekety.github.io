@@ -10,4 +10,7 @@ $(function () {
 	        }
 	    });
 	});
+    
+    new WOW().init();
+              
 });
