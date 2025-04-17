@@ -1,5 +1,5 @@
 let preloader = document.getElementById('preloader');
-window.addEventListener('load', () => {
+window.addEventListener('DOMContentLoaded', () => {
     setTimeout((e) => {
        if (!preloader.classList.contains('done')) {
            preloader.classList.add('done');
